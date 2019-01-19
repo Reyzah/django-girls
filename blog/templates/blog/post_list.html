@@ -9,5 +9,12 @@
     <p>It works!</p>
     <p>Ayu!</p>
     <p><a href="https://github.com/Reyzah/django-girls.git">click to visit my project</a></p>
+
+	{% for post in posts %}
+		<h1>{{post.title}}</h1>
+		<em>{{post.author}}</em>
+		<p>{{post.text}}</p>
+	{% endfor %}
+
 </body>
 </html>
