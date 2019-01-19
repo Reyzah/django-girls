@@ -1,0 +1,16 @@
+.title {
+	color: green;
+	text-transform: uppercase;
+	font-family: "Comic Sans MS";
+
+}
+.blog{
+	width: 300px;
+	height: 300px;
+	position: relative;
+	display: inline-block;
+}
+
+.first{
+	margin: auto;	
+}
